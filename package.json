@@ -1,0 +1,12 @@
+{
+  "name": "general-purpose-chart-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.2.3",
+    "pixi.js": "^6.1.2",
+    "snowpack": "^3.8.8",
+    "typescript": "^4.4.2"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Purpose Chart Editor</title>
+    <link rel="stylesheet" href="./source/style.css">
+</head>
+<body>
+    <canvas id="view"></canvas>
+    <div id="sidemenu">
+        <div id="grid">
+            <label for="timeInput">TIME:</label>
+            <input min="0" type="number" name="timeInput" id="timeInput">
+            <label for="timeVisibleInput">VISIBLE:</label>
+            <input min="4" type="number" name="timeVisibleInput" id="timeVisibleInput">
+        </div>
+    </div>
+    <script src="./source/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+label{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+#sidemenu{
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    padding: 5px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
